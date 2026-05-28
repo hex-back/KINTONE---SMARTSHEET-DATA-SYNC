@@ -341,11 +341,11 @@ Open `config.py` and fill in your credentials:
 
 ```python
 kintone_subdomain:  str = "your-subdomain"      # e.g. "mycompany" → mycompany.kintone.com
-kintone_app_id:     str = "4"                    # Kintone app ID (from the URL)
+kintone_app_id:     str = "your-app-number"                    # Kintone app ID (from the URL) SAMPLE APP NUMBER ON KINTONE "4"
 kintone_api_token:  str = "your-api-token"       # From Kintone App Settings → API Token
 
 smartsheet_api_token: str = "your-ss-token"      # From Smartsheet Account → API Access
-smartsheet_sheet_id:  str = "669481520025476"    # From the sheet URL
+smartsheet_sheet_id:  str = "your-sheet-id "    # From the sheet URL SAMPKE SHEET NUMBER ON SMARTSHEET "669481520025476"
 ```
 
 `kintone_fetch_size` controls how many records are requested per page (max 500). Leave at 500 for best performance.
